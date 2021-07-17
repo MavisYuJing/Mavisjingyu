@@ -1,12 +1,3 @@
-div#page {
-	padding: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
-	max-width: 1200 px;
-	min-width: 720 px;
-}
 header {
 	font-size: 35px;
 	font-family: "Lucida Console", "Courier New",Fantasy;
