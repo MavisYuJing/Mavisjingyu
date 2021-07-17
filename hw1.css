@@ -1,0 +1,101 @@
+div#page {
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	max-width: 1200 px;
+	min-width: 720 px;
+}
+header {
+	font-size: 35px;
+	font-family: "Lucida Console", "Courier New",Fantasy;
+	background-color: AntiqueWhite;
+	width: 1030px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+p::first-letter{
+	font-size: 150%;
+}
+ul#navigation {
+	width: 1000px;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid black;
+	border-top: 2px solid black;
+}
+ul {
+	text-align: center;
+}
+li {
+	display: inline;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 3px;
+	margin-right: 3px;
+	text-transform: uppercase;
+	color: black;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+li {
+	padding-top: 6px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+	padding-left: 12px;
+}
+a {
+	color: black;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover{
+	color: LightBlue;
+}
+p {
+	text-align: Left;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "Garamond", Serif;
+	letter-spacing:1.3px;
+	line-height:150%
+}
+a.on {
+	font-weight:bold;
+	background-color:LightSteelBlue;
+	color:SaddleBrown;
+}
+img {
+	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	width: 50%;
+}
+table,td,th {
+	font-family: "Garamond", Serif;
+	letter-spacing:1.3px;
+	line-height:150%;
+	padding: 10px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	background-color: Beige;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	margin-bottom: 20px;
+	table-layout:auto;
+}
